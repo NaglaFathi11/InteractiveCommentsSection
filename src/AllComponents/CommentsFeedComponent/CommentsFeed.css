@@ -1,0 +1,14 @@
+div#AllComments {
+    width: 56%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    div#AllComments {
+        width: 100%;
+    }
+}
