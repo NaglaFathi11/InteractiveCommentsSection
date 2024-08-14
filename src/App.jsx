@@ -1,7 +1,7 @@
 import "./App.css";
 import CommentsFeed from "./AllComponents/CommentsFeedComponent/CommentsFeed";
 import AddNewComment from "./AllComponents/AddNewCommentComponent/AddNewComment";
-import CurrentUserImage from "../src/assets/avatars/juliusomo.png";
+import CurrentUserImage from "../public/assets/avatars/juliusomo.png";
 import { useState, useEffect } from "react";
 import { v4 as uuidv4 } from "uuid";
 
@@ -10,7 +10,7 @@ export default function App() {
   const [currentUser, setCurrentUser] = useState([
     {
       image: {
-        png: "./src/assets/avatars/juliusomo.png",
+        png: "../public/assets/avatars/juliusomo.png",
         webp: "./images/avatars/image-juliusomo.webp",
       },
       username: "juliusomo",
@@ -42,7 +42,7 @@ export default function App() {
       score: 12,
       user: {
         image: {
-          png: "/assets/avatars/image-amyrobson.png",
+          png: "/public/assets/avatars/image-amyrobson.png",
           webp: "./images/avatars/image-amyrobson.webp",
         },
         username: "amyrobson",
@@ -57,7 +57,7 @@ export default function App() {
       score: 5,
       user: {
         image: {
-          png: "./src/assets/avatars/image-maxblagun.png",
+          png: "/public/assets/avatars/image-maxblagun.png",
           webp: "./images/avatars/image-maxblagun.webp",
         },
         username: "maxblagun",
@@ -72,7 +72,7 @@ export default function App() {
           replyingTo: "maxblagun",
           user: {
             image: {
-              png: "./src/assets/avatars/image-ramsesmiron.png",
+              png: "/public/assets/avatars/image-ramsesmiron.png",
               webp: "./images/avatars/image-ramsesmiron.webp",
             },
             username: "ramsesmiron",
@@ -84,7 +84,7 @@ export default function App() {
             "I couldn't agree more with this. Everything moves so fast and it always seems like everyone knows the newest library/framework. But the fundamentals are what stay constant.",
           createdAt: "2 days ago",
           score: 2,
-          replyingTo: "ramsesmiron",
+          replyingTo: "maxblagun",
           user: {
             image: {
               png: "./src/assets/avatars/juliusomo.png",
