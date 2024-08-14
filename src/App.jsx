@@ -10,7 +10,7 @@ export default function App() {
   const [currentUser, setCurrentUser] = useState([
     {
       image: {
-        png: "../public/assets/avatars/juliusomo.png",
+        png: "/assets/avatars/juliusomo.png",
         webp: "./images/avatars/image-juliusomo.webp",
       },
       username: "juliusomo",
@@ -42,7 +42,7 @@ export default function App() {
       score: 12,
       user: {
         image: {
-          png: "./public/assets/avatars/image-amyrobson.png",
+          png: "/assets/avatars/image-amyrobson.png",
           webp: "./images/avatars/image-amyrobson.webp",
         },
         username: "amyrobson",
@@ -57,7 +57,7 @@ export default function App() {
       score: 5,
       user: {
         image: {
-          png: "./public/assets/avatars/image-maxblagun.png",
+          png: "/assets/avatars/image-maxblagun.png",
           webp: "./images/avatars/image-maxblagun.webp",
         },
         username: "maxblagun",
@@ -72,7 +72,7 @@ export default function App() {
           replyingTo: "maxblagun",
           user: {
             image: {
-              png: "./public/assets/avatars/image-ramsesmiron.png",
+              png: "/assets/avatars/image-ramsesmiron.png",
               webp: "./images/avatars/image-ramsesmiron.webp",
             },
             username: "ramsesmiron",
@@ -87,7 +87,7 @@ export default function App() {
           replyingTo: "maxblagun",
           user: {
             image: {
-              png: "../public/assets/avatars/juliusomo.png",
+              png: "/assets/avatars/juliusomo.png",
               webp: "./images/avatars/image-juliusomo.webp",
             },
             username: "juliusomo",
@@ -170,7 +170,7 @@ export default function App() {
 
               user: {
                 image: {
-                  png: CurrentUserImage,
+                  png: "/assets/avatars/juliusomo.png",
                 },
 
                 username: "juliusomo",
