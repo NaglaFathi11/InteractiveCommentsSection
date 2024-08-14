@@ -42,7 +42,7 @@ export default function App() {
       score: 12,
       user: {
         image: {
-          png: "./src/assets/avatars/image-amyrobson.png",
+          png: "/assets/avatars/image-amyrobson.png",
           webp: "./images/avatars/image-amyrobson.webp",
         },
         username: "amyrobson",
