@@ -118,7 +118,7 @@ export default function App() {
       score: 0,
       user: {
         image: {
-          png: CurrentUserImage,
+          png: "/assets/avatars/juliusomo.png",
         },
         username: "juliusomo",
       },
