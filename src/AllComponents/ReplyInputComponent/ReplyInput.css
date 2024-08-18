@@ -34,3 +34,7 @@ textarea {
     opacity: .5;
     transition: .2s ease-in;
 }
+
+button.disabledSend {
+    opacity: 65%;
+}
